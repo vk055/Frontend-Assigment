@@ -1,6 +1,5 @@
-import {
-    questions
-} from './question.js';
+import { getQuestions } from './question.js';
+const questions= await getQuestions();
 
 export function askQuestion() {
     return questions[Math.floor(Math.random() * questions.length)];
