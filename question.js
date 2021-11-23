@@ -1,8 +1,7 @@
-import { delay } from './delay.js';
-const questions = [{
+export const questions = [{
     question: 'What is a Rocky Mountain oyster',
     correctAnswer: 'a',
-    a: 'a delicacy made from bull testicles',
+    a: 'a delicacy made from bull testicles.',
     b: 'a rare type of Shellfish ',
     c: 'a famous Bar in the Rocky Mountains',
     d: 'a nickname for the Rocky Mountain Horse'
@@ -28,9 +27,3 @@ const questions = [{
     c: 'Torta',
     d: 'Pasticcio'
 }];
-
-export async function getQuestions() {
-    await delay();
-    return questions ;
-    
-}
