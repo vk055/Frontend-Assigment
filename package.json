@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ."
+    "start": "http-server --proxy http://localhost:8080?"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "jshint": "^2.13.1"
   },
   "devDependencies": {
+    "lint": "^0.7.0",
     "prettier": "2.4.1"
   }
 }

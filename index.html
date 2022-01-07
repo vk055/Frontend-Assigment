@@ -1,15 +1,35 @@
 <!doctype html>
 <html>
-  <head>
-    <title>FHS-Modules</title>
-    <script src="./index.js" type="module"></script>
-  </head>
-  <body>
-    <p>
-      Start this exercise by adding a new .js file and include it in this file with type module:
-    </p>
-    <xmp>
-      <script src="./index.js" type="module"></script>
-    </xmp>
-  </body>
+
+<head>
+  <title>FHS-Modules</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .container { margin:2em 20em }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="/" class="button">Home</a>
+    <a href="/quiz" class="button">Quiz</a>
+    <a href="/result" class="button">Results</a>
+  </header>
+  <div class="container">
+
+  </div>
+  <!--<script src="./index.js" type="module"></script>-->
+  <script src="./spa.js" type="module"></script>
+
+
+<script> function getInputValue(element) {
+  var btnValue = element.value;
+  console.log(btnValue);
+  console.log(window.answer)
+   window.answer= btnValue;
+   console.log(answer)
+}</script>
+</body>
+
 </html>
